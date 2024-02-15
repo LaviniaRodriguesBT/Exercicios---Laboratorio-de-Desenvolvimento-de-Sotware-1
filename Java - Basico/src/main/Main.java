@@ -58,7 +58,7 @@ public class Main {
 
         System.out.println("Interacao com while");
         while (cont <= numero){
-            System.out.println("Valor: " + cont);
+            System.out.println("Valor i: " + cont);
             cont += 1;
         }
 
@@ -66,14 +66,14 @@ public class Main {
         System.out.println("\n");
         System.out.println("Interacao com do/while" + "\n");
         do {
-            System.out.println("Valor: " + cont);
+            System.out.println("Valor k: " + cont);
             cont += 1;
         } while (cont <= numero);
 
         System.out.println("\n");
         System.out.println("Interacao com for" + "\n");
         for (cont = 1; cont <= numero; cont += 1 ){
-            System.out.println("Valor: " + cont);
+            System.out.println("Valor j: " + cont);
         }
     }
 }
