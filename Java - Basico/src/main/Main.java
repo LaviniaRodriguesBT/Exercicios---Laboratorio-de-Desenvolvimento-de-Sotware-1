@@ -49,5 +49,31 @@ public class Main {
         JavaBasico3 verificador = new JavaBasico3();
         verificador.setIdade(Valoridade);
         verificador.verificarIdade();
+
+        // Exercicio Básico Java 4
+        System.out.println("-------------------EXERCICIO 4-------------------------");
+
+        int numero = 20;
+        int cont = 1;
+
+        System.out.println("Interacao com while");
+        while (cont <= numero){
+            System.out.println("Valor: " + cont);
+            cont += 1;
+        }
+
+        cont = 1;
+        System.out.println("\n");
+        System.out.println("Interacao com do/while" + "\n");
+        do {
+            System.out.println("Valor: " + cont);
+            cont += 1;
+        } while (cont <= numero);
+
+        System.out.println("\n");
+        System.out.println("Interacao com for" + "\n");
+        for (cont = 1; cont <= numero; cont += 1 ){
+            System.out.println("Valor: " + cont);
+        }
     }
 }
